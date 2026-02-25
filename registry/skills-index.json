@@ -1,0 +1,54 @@
+{
+  "version": "1",
+  "updatedAt": "2026-02-25T00:00:00Z",
+  "skills": [
+    {
+      "name": "gmail-compose",
+      "version": "1.0.0",
+      "description": "Compose and send Gmail emails via the web interface",
+      "author": "cyclop-team",
+      "category": "communication",
+      "tags": ["email", "gmail", "compose"],
+      "verified": true,
+      "rating": 4.8,
+      "downloads": 0,
+      "downloadURL": "https://github.com/cyclopone/skills-hub/releases/download/skills-v1.0.0/gmail-compose-1.0.0.skill",
+      "checksum": "sha256:placeholder",
+      "homepage": "https://github.com/cyclopone/skills-hub/tree/main/skills/gmail-compose",
+      "hasTools": false,
+      "permissions": []
+    },
+    {
+      "name": "whatsapp-send",
+      "version": "1.0.0",
+      "description": "Send messages to WhatsApp contacts and groups",
+      "author": "cyclop-team",
+      "category": "communication",
+      "tags": ["whatsapp", "messaging", "chat"],
+      "verified": true,
+      "rating": 4.7,
+      "downloads": 0,
+      "downloadURL": "https://github.com/cyclopone/skills-hub/releases/download/skills-v1.0.0/whatsapp-send-1.0.0.skill",
+      "checksum": "sha256:placeholder",
+      "homepage": "https://github.com/cyclopone/skills-hub/tree/main/skills/whatsapp-send",
+      "hasTools": false,
+      "permissions": []
+    },
+    {
+      "name": "twitter-post",
+      "version": "1.0.0",
+      "description": "Post tweets and threads on X (Twitter)",
+      "author": "cyclop-team",
+      "category": "communication",
+      "tags": ["twitter", "x", "social", "post"],
+      "verified": true,
+      "rating": 4.6,
+      "downloads": 0,
+      "downloadURL": "https://github.com/cyclopone/skills-hub/releases/download/skills-v1.0.0/twitter-post-1.0.0.skill",
+      "checksum": "sha256:placeholder",
+      "homepage": "https://github.com/cyclopone/skills-hub/tree/main/skills/twitter-post",
+      "hasTools": false,
+      "permissions": []
+    }
+  ]
+}

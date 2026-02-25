@@ -1,0 +1,29 @@
+{
+  "name": "gmail-compose",
+  "version": "1.0.0",
+  "description": "Compose and send Gmail emails via the web interface",
+  "author": "cyclop-team",
+  "triggers": [
+    "send email",
+    "compose email",
+    "email to",
+    "send gmail",
+    "write email"
+  ],
+  "steps": [
+    "Open mail.google.com in Chrome",
+    "Click Compose button (top-left, large button)",
+    "Wait for compose window to appear",
+    "Tab order: To → CC → Subject → Body (press Tab between each field — TWO separate press_key Tab calls to get from To to Subject)",
+    "NEVER click field coordinates — use Tab navigation only",
+    "NEVER press Escape inside compose window — it closes the window, use Tab instead",
+    "After filling all fields, click the Send button (blue button at bottom-left of compose window)"
+  ],
+  "permissions": [],
+  "maxIterations": 20,
+  "marketplace": {
+    "category": "communication",
+    "tags": ["email", "gmail", "compose"],
+    "verified": true
+  }
+}

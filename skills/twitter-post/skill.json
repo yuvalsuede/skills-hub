@@ -1,0 +1,28 @@
+{
+  "name": "twitter-post",
+  "version": "1.0.0",
+  "description": "Post tweets and threads on X (Twitter)",
+  "author": "cyclop-team",
+  "triggers": [
+    "post to x",
+    "tweet",
+    "post on twitter",
+    "post on x",
+    "twitter post",
+    "x post"
+  ],
+  "steps": [
+    "Open x.com in Chrome",
+    "Click the compose button ('+' button) or click the 'What is happening?' field",
+    "If click doesn't focus: use type_text directly — it often works without explicit focus",
+    "Type the message",
+    "Click the Post button (blue button, right side)"
+  ],
+  "permissions": [],
+  "maxIterations": 15,
+  "marketplace": {
+    "category": "communication",
+    "tags": ["twitter", "x", "social", "post"],
+    "verified": true
+  }
+}
