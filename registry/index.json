@@ -1,8 +1,26 @@
 {
   "version": "2.0",
-  "updatedAt": "2026-02-25T08:23:53Z",
+  "updatedAt": "2026-02-25T08:24:30Z",
   "baseURL": "https://raw.githubusercontent.com/cyclop-one/cyclop-hub/main",
   "skills": [
+    {
+      "name": "calendar-add-event",
+      "version": "1.0.0",
+      "description": "Add an event to macOS Calendar app",
+      "author": "cyclop-team",
+      "category": "productivity",
+      "tags": [
+        "calendar",
+        "events",
+        "scheduling",
+        "macos"
+      ],
+      "verified": true,
+      "hasExecutableTools": false,
+      "skillURL": "/skills/calendar-add-event/skill.json",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/calendar-add-event",
+      "permissions": []
+    },
     {
       "name": "gmail-compose",
       "version": "1.0.0",
@@ -35,6 +53,60 @@
       "hasExecutableTools": false,
       "skillURL": "/skills/notes-create/skill.json",
       "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/notes-create",
+      "permissions": []
+    },
+    {
+      "name": "notion-create-page",
+      "version": "1.0.0",
+      "description": "Create a new page in Notion via the web app",
+      "author": "cyclop-team",
+      "category": "productivity",
+      "tags": [
+        "notion",
+        "notes",
+        "docs",
+        "productivity"
+      ],
+      "verified": true,
+      "hasExecutableTools": false,
+      "skillURL": "/skills/notion-create-page/skill.json",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/notion-create-page",
+      "permissions": [
+        "network"
+      ]
+    },
+    {
+      "name": "reminders-add",
+      "version": "1.0.0",
+      "description": "Add a reminder to macOS Reminders app",
+      "author": "cyclop-team",
+      "category": "productivity",
+      "tags": [
+        "reminders",
+        "tasks",
+        "macos"
+      ],
+      "verified": true,
+      "hasExecutableTools": false,
+      "skillURL": "/skills/reminders-add/skill.json",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/reminders-add",
+      "permissions": []
+    },
+    {
+      "name": "slack-send",
+      "version": "1.0.0",
+      "description": "Send a message to a Slack channel or person via Slack desktop app",
+      "author": "cyclop-team",
+      "category": "communication",
+      "tags": [
+        "slack",
+        "messaging",
+        "team"
+      ],
+      "verified": true,
+      "hasExecutableTools": false,
+      "skillURL": "/skills/slack-send/skill.json",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/slack-send",
       "permissions": []
     },
     {
