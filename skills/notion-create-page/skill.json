@@ -1,0 +1,20 @@
+{
+  "name": "notion-create-page",
+  "version": "1.0.0",
+  "description": "Create a new page in Notion via the web app",
+  "author": "cyclop-team",
+  "triggers": ["notion", "create notion page", "add to notion", "notion note"],
+  "steps": [
+    "Open Chrome and navigate to notion.so",
+    "Wait for Notion to load and confirm login",
+    "Click '+ New page' in the left sidebar",
+    "Type the page title",
+    "Press Return and type the page content",
+    "Notion auto-saves — verify the page was created"
+  ],
+  "maxIterations": 20,
+  "category": "productivity",
+  "tags": ["notion", "notes", "docs", "productivity"],
+  "verified": true,
+  "permissions": ["network"]
+}
