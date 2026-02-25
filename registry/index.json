@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updatedAt": "2026-02-25T00:00:00Z",
+  "updatedAt": "2026-02-25T08:23:53Z",
   "baseURL": "https://raw.githubusercontent.com/cyclop-one/cyclop-hub/main",
   "skills": [
     {
@@ -9,7 +9,11 @@
       "description": "Compose and send Gmail emails via the web interface",
       "author": "cyclop-team",
       "category": "communication",
-      "tags": ["email", "gmail", "compose"],
+      "tags": [
+        "email",
+        "gmail",
+        "compose"
+      ],
       "verified": true,
       "hasExecutableTools": false,
       "skillURL": "/skills/gmail-compose/skill.json",
@@ -17,16 +21,37 @@
       "permissions": []
     },
     {
-      "name": "whatsapp-send",
+      "name": "notes-create",
       "version": "1.0.0",
-      "description": "Send messages to WhatsApp contacts and groups via WhatsApp Desktop",
+      "description": "Create a new note in macOS Notes app",
       "author": "cyclop-team",
-      "category": "communication",
-      "tags": ["whatsapp", "messaging", "chat"],
+      "category": "productivity",
+      "tags": [
+        "notes",
+        "writing",
+        "macos"
+      ],
       "verified": true,
       "hasExecutableTools": false,
-      "skillURL": "/skills/whatsapp-send/skill.json",
-      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/whatsapp-send",
+      "skillURL": "/skills/notes-create/skill.json",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/notes-create",
+      "permissions": []
+    },
+    {
+      "name": "spotify-play",
+      "version": "1.0.0",
+      "description": "Play music, a playlist, or artist on Spotify",
+      "author": "cyclop-team",
+      "category": "entertainment",
+      "tags": [
+        "spotify",
+        "music",
+        "audio"
+      ],
+      "verified": true,
+      "hasExecutableTools": false,
+      "skillURL": "/skills/spotify-play/skill.json",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/spotify-play",
       "permissions": []
     },
     {
@@ -35,11 +60,33 @@
       "description": "Post tweets and threads on X (Twitter) via the web interface",
       "author": "cyclop-team",
       "category": "social",
-      "tags": ["twitter", "x", "social", "post"],
+      "tags": [
+        "twitter",
+        "x",
+        "social",
+        "post"
+      ],
       "verified": true,
       "hasExecutableTools": false,
       "skillURL": "/skills/twitter-post/skill.json",
       "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/twitter-post",
+      "permissions": []
+    },
+    {
+      "name": "whatsapp-send",
+      "version": "1.0.0",
+      "description": "Send messages to WhatsApp contacts and groups via WhatsApp Desktop",
+      "author": "cyclop-team",
+      "category": "communication",
+      "tags": [
+        "whatsapp",
+        "messaging",
+        "chat"
+      ],
+      "verified": true,
+      "hasExecutableTools": false,
+      "skillURL": "/skills/whatsapp-send/skill.json",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/whatsapp-send",
       "permissions": []
     }
   ]
