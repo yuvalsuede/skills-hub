@@ -1,0 +1,22 @@
+{
+  "name": "slack-send",
+  "version": "1.0.0",
+  "description": "Send a message to a Slack channel or person via Slack desktop app",
+  "author": "cyclop-team",
+  "triggers": ["slack", "send slack message", "slack dm", "post in slack channel"],
+  "steps": [
+    "Open Slack using open_application",
+    "Press Cmd+K to open the quick switcher",
+    "Type the channel name or person's name",
+    "Click the correct result",
+    "Click the message input box",
+    "Type the message",
+    "Press Return to send",
+    "Verify the message appears in the conversation"
+  ],
+  "maxIterations": 15,
+  "category": "communication",
+  "tags": ["slack", "messaging", "team"],
+  "verified": true,
+  "permissions": []
+}
