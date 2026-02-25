@@ -1,0 +1,19 @@
+{
+  "name": "notes-create",
+  "version": "1.0.0",
+  "description": "Create a new note in macOS Notes app",
+  "author": "cyclop-team",
+  "triggers": ["create note", "add note", "write note", "jot down", "note this"],
+  "steps": [
+    "Open Notes app using open_application",
+    "Press Cmd+N to create a new note",
+    "Type the note title",
+    "Press Return and type the note content",
+    "Verify the note was created"
+  ],
+  "maxIterations": 12,
+  "category": "productivity",
+  "tags": ["notes", "writing", "macos"],
+  "verified": true,
+  "permissions": []
+}
