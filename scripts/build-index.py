@@ -8,7 +8,7 @@ import json
 import os
 from datetime import datetime, timezone
 
-BASE_URL = "https://raw.githubusercontent.com/yuvalsuede/skills-hub/main"
+BASE_URL = "https://raw.githubusercontent.com/cyclop-one/skills-hub/main"
 SKILLS_DIR = "skills"
 OUTPUT = "registry/index.json"
 
@@ -24,7 +24,7 @@ def build_entry(name: str, manifest: dict) -> dict:
         "verified": manifest.get("verified", False),
         "hasExecutableTools": bool(manifest.get("tools")),
         "skillURL": f"/skills/{name}/skill.json",
-        "homepage": f"https://github.com/yuvalsuede/skills-hub/tree/main/skills/{name}",
+        "homepage": f"https://github.com/cyclop-one/skills-hub/tree/main/skills/{name}",
         "permissions": manifest.get("permissions", []),
     }
 
