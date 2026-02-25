@@ -1,43 +1,43 @@
 # Cyclop One Skills Hub
 
-The official marketplace for [Cyclop One](https://cyclop.one) skills.
+> Community skills for [Cyclop One](https://cyclop.one) — the macOS desktop automation agent.
 
-## What is a skill?
+[![Skills](https://img.shields.io/badge/skills-3-blue)](skills/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-A skill is a package that teaches Cyclop One how to automate a specific task. Skills contain:
-- **Trigger patterns** — regex phrases that activate the skill
-- **Step instructions** — procedural guidance injected into the agent's context
-- **Optional tools** — executable scripts (sandboxed) for complex automation
+## What are Skills?
 
-## Installing skills
+Skills teach Cyclop One how to interact with specific apps. When you say _"compose an email to John"_, Cyclop One loads the `gmail-compose` skill to guide the agent step-by-step.
 
-Skills can be installed directly from the in-app marketplace (Browse tab in the Skills panel).
+Skills are just two files — a JSON manifest and a Markdown description. No code required for UI automation.
 
-## Submitting a skill
+## Browse Skills
 
-1. Fork this repo
-2. Create a directory under `skills/your-skill-name/`
-3. Add `skill.json` (required) and `SKILL.md` (optional)
-4. Open a pull request — the CI safety scanner will review it
+| Skill | Description | Category |
+|---|---|---|
+| [gmail-compose](skills/gmail-compose/SKILL.md) | Compose and send Gmail emails | communication |
+| [whatsapp-send](skills/whatsapp-send/SKILL.md) | Send WhatsApp messages | communication |
+| [twitter-post](skills/twitter-post/SKILL.md) | Post on X (Twitter) | social |
 
-## skill.json format
+## Install a Skill
 
-```json
-{
-  "name": "my-skill",
-  "version": "1.0.0",
-  "description": "What this skill does",
-  "author": "your-github-username",
-  "triggers": ["phrase that activates it", "another phrase"],
-  "steps": [
-    "Step 1: Do this first",
-    "Step 2: Then do this"
-  ],
-  "permissions": [],
-  "maxIterations": 15
-}
+Skills are available in the Cyclop One marketplace (in the app under the Skills tab). You can also install via command:
+
+```
+# Install from the Skills tab in Cyclop One
+# Or run a command that matches the skill's triggers — Cyclop One will prompt to install
 ```
 
-## Skills index
+## Adding a Skill
 
-The `registry/skills-index.json` file is the discovery layer fetched by the in-app marketplace client.
+Want to share a skill with the community? See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+It takes about 5 minutes to add a skill — just create a directory with `skill.json` and `SKILL.md`, then open a PR.
+
+## Registry
+
+The machine-readable index is at [`registry/index.json`](registry/index.json) and is auto-generated from the `skills/` directory when changes are merged.
+
+## License
+
+MIT
