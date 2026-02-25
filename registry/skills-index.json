@@ -12,9 +12,9 @@
       "verified": true,
       "rating": 4.8,
       "downloads": 0,
-      "downloadURL": "https://github.com/cyclopone/skills-hub/releases/download/skills-v1.0.0/gmail-compose-1.0.0.skill",
+      "downloadURL": "https://github.com/yuvalsuede/skills-hub/releases/download/skills-v1.0.0/gmail-compose-1.0.0.skill",
       "checksum": "sha256:placeholder",
-      "homepage": "https://github.com/cyclopone/skills-hub/tree/main/skills/gmail-compose",
+      "homepage": "https://github.com/yuvalsuede/skills-hub/tree/main/skills/gmail-compose",
       "hasTools": false,
       "permissions": []
     },
@@ -28,9 +28,9 @@
       "verified": true,
       "rating": 4.7,
       "downloads": 0,
-      "downloadURL": "https://github.com/cyclopone/skills-hub/releases/download/skills-v1.0.0/whatsapp-send-1.0.0.skill",
+      "downloadURL": "https://github.com/yuvalsuede/skills-hub/releases/download/skills-v1.0.0/whatsapp-send-1.0.0.skill",
       "checksum": "sha256:placeholder",
-      "homepage": "https://github.com/cyclopone/skills-hub/tree/main/skills/whatsapp-send",
+      "homepage": "https://github.com/yuvalsuede/skills-hub/tree/main/skills/whatsapp-send",
       "hasTools": false,
       "permissions": []
     },
@@ -44,9 +44,9 @@
       "verified": true,
       "rating": 4.6,
       "downloads": 0,
-      "downloadURL": "https://github.com/cyclopone/skills-hub/releases/download/skills-v1.0.0/twitter-post-1.0.0.skill",
+      "downloadURL": "https://github.com/yuvalsuede/skills-hub/releases/download/skills-v1.0.0/twitter-post-1.0.0.skill",
       "checksum": "sha256:placeholder",
-      "homepage": "https://github.com/cyclopone/skills-hub/tree/main/skills/twitter-post",
+      "homepage": "https://github.com/yuvalsuede/skills-hub/tree/main/skills/twitter-post",
       "hasTools": false,
       "permissions": []
     }
