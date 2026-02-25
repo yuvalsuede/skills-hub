@@ -1,28 +1,26 @@
 {
   "name": "whatsapp-send",
   "version": "1.0.0",
-  "description": "Send messages to WhatsApp contacts and groups",
+  "description": "Send messages to WhatsApp contacts and groups via WhatsApp Desktop",
   "author": "cyclop-team",
   "triggers": [
     "whatsapp",
-    "send whatsapp",
-    "message on whatsapp",
-    "whatsapp message"
+    "send message to",
+    "message [contact]",
+    "text [contact] on whatsapp"
   ],
   "steps": [
-    "Use the native WhatsApp app (already open) — do NOT use web.whatsapp.com",
-    "To find a chat or group: click the search bar at top, type the EXACT name given in the command",
-    "Click the matching result — do NOT assume any name refers to saved-messages or self-chat",
-    "If not found in main search: try the New Chat button (pencil icon) and search there",
-    "Once chat is open: message input at bottom IS already focused — use type_text DIRECTLY without clicking first",
-    "If type_text fails (nothing typed): THEN click the input area once and retry",
-    "After typing: press Enter or Return to send"
+    "Activate WhatsApp Desktop app",
+    "Click the search bar at the top and type the exact contact or group name",
+    "Wait for search results and click the correct matching result",
+    "Click the message input field at the bottom",
+    "Type or paste the message",
+    "Press Enter or click the send button",
+    "Verify the message appears in the chat"
   ],
-  "permissions": [],
   "maxIterations": 15,
-  "marketplace": {
-    "category": "communication",
-    "tags": ["whatsapp", "messaging", "chat"],
-    "verified": true
-  }
+  "category": "communication",
+  "tags": ["whatsapp", "messaging", "chat"],
+  "verified": true,
+  "permissions": []
 }
