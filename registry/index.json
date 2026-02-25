@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "updatedAt": "2026-02-25T00:00:00Z",
-  "baseURL": "https://raw.githubusercontent.com/cyclop-one/skills-hub/main",
+  "baseURL": "https://raw.githubusercontent.com/cyclop-one/cyclop-hub/main",
   "skills": [
     {
       "name": "gmail-compose",
@@ -13,7 +13,7 @@
       "verified": true,
       "hasExecutableTools": false,
       "skillURL": "/skills/gmail-compose/skill.json",
-      "homepage": "https://github.com/cyclop-one/skills-hub/tree/main/skills/gmail-compose",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/gmail-compose",
       "permissions": []
     },
     {
@@ -26,7 +26,7 @@
       "verified": true,
       "hasExecutableTools": false,
       "skillURL": "/skills/whatsapp-send/skill.json",
-      "homepage": "https://github.com/cyclop-one/skills-hub/tree/main/skills/whatsapp-send",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/whatsapp-send",
       "permissions": []
     },
     {
@@ -39,7 +39,7 @@
       "verified": true,
       "hasExecutableTools": false,
       "skillURL": "/skills/twitter-post/skill.json",
-      "homepage": "https://github.com/cyclop-one/skills-hub/tree/main/skills/twitter-post",
+      "homepage": "https://github.com/cyclop-one/cyclop-hub/tree/main/skills/twitter-post",
       "permissions": []
     }
   ]
