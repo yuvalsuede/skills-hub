@@ -1,0 +1,21 @@
+{
+  "name": "calendar-add-event",
+  "version": "1.0.0",
+  "description": "Add an event to macOS Calendar app",
+  "author": "cyclop-team",
+  "triggers": ["add event", "schedule meeting", "create event", "calendar event", "set up meeting"],
+  "steps": [
+    "Open Calendar app using open_application",
+    "Press Cmd+N to create a new event",
+    "Type the event title",
+    "Set the date and time if specified",
+    "Add location and invitees if specified",
+    "Press Return to save the event",
+    "Verify the event appears in the calendar"
+  ],
+  "maxIterations": 15,
+  "category": "productivity",
+  "tags": ["calendar", "events", "scheduling", "macos"],
+  "verified": true,
+  "permissions": []
+}
