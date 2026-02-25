@@ -1,0 +1,20 @@
+{
+  "name": "spotify-play",
+  "version": "1.0.0",
+  "description": "Play music, a playlist, or artist on Spotify",
+  "author": "cyclop-team",
+  "triggers": ["play on spotify", "spotify play", "play music", "play songs by"],
+  "steps": [
+    "Open Spotify using open_application",
+    "Click the search bar",
+    "Type the song, artist, album, or playlist name",
+    "Click the most relevant search result",
+    "Click the Play button",
+    "Verify music is playing in the playback bar"
+  ],
+  "maxIterations": 15,
+  "category": "entertainment",
+  "tags": ["spotify", "music", "audio"],
+  "verified": true,
+  "permissions": []
+}
