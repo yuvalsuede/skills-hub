@@ -1,0 +1,20 @@
+{
+  "name": "reminders-add",
+  "version": "1.0.0",
+  "description": "Add a reminder to macOS Reminders app",
+  "author": "cyclop-team",
+  "triggers": ["add reminder", "remind me to", "set reminder", "don't let me forget"],
+  "steps": [
+    "Open Reminders app using open_application",
+    "Click '+' or press Cmd+N to add a new reminder",
+    "Type the reminder text",
+    "Set date/time if specified",
+    "Press Return to save",
+    "Verify the reminder appears in the list"
+  ],
+  "maxIterations": 12,
+  "category": "productivity",
+  "tags": ["reminders", "tasks", "macos"],
+  "verified": true,
+  "permissions": []
+}
